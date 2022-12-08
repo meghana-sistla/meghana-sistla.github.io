@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<meta name="generator" content="Hugo 0.89.2" />
+	<meta name="generator" content="Hugo 0.103.0" />
         <meta charset="utf-8">
         <title>Meghana Sistla</title>
         
@@ -10,12 +10,105 @@
         <script src="https://kit.fontawesome.com/0c87beb16c.js"></script>
         
          
-        <link rel="stylesheet" href="http://example.org/sass/style.min.46123c3b808453b024a8294834a2f33f5c5febfe8c15bf4ee524d12e85ada1e8.css">
+        <link rel="stylesheet" href="https://meghana-sistla.github.io/sass/style.min.46123c3b808453b024a8294834a2f33f5c5febfe8c15bf4ee524d12e85ada1e8.css">
     </head>
     <body>
         
     <div class="container">
         <div class="header">
+            <div>
+                <h1>Meghana Aparna Sistla</h1>
+                <div class="contact">
+                    <p>
+                            Ph.D. Student <br>
+                            University of Texas at Austin <br>
+                            mesistla@utexas.edu <br>
+                    </p>
+                </div>        
+            </div>
+            <div class="headshot">
+                <img src="/images/headshot.jpg" alt="Meghana Aparna Sistla">
+            </div>
+        </div>
+        <div class="content">
+            <section id="about">
+                <h2>About</h2>
+                <p>Hi! I am a second year Ph.D. student in Trishul group at the <a href="https://www.cs.utexas.edu/">University of Texas at Austin</a>, working with <a href="https://www.cs.utexas.edu/~swarat/">Prof. Swarat Chaudhuri</a>.
+I work in the area of programming languages and quantum computing. I am currently working on the problem of efficiently simulating quantum circuits.</p>
+<p>Prior to pursuing Ph.D., I worked at Google India (2020-21) where I worked in the Google Ads team and Microsoft India (2019-2020) where I worked in Azure Compute team.</p>
+<p>I graduated from <a href="http://www.cse.iitm.ac.in/">Indian Institute of Technology Madras</a> in 2019 with a Dual  Degree (Bachelor&rsquo;s and Master&rsquo;s) in Computer Science. I was advised by <a href="http://www.cse.iitm.ac.in/~krishna/">Prof. V Krishna Nandivada</a>.
+My final year thesis work was on Graph Coloring using GPUs.</p>
+
+            </section>
+            
+            <section id="papers">
+                
+                
+            
+                
+                    <h2>Papers</h2>
+                    <ul>
+                        
+                            <li>
+    <span class="title">
+
+
+
+
+
+    <a href="https://arxiv.org/abs/2211.06818">Context-Free-Language Ordered Binary Decision Diagrams</a></span>
+    <span class="at"> @ </span>
+    <span class="location">
+
+
+
+preprint 22</span><br>
+    <span class="authors">Meghana Sistla, Swarat Chaudhuri, Thomas Reps</span><br>
+    <details class="abstract">
+	<summary> Abstract </summary>
+	<p> <p>This paper presents a new compressed representation of Boolean functions, called CFLOBDDs (for Context-Free-Language Ordered Binary Decision Diagrams). They are essentially a plug-compatible alternative to BDDs (Binary Decision Diagrams), and hence useful for representing certain classes of functions, matrices, graphs, relations, etc. in a highly compressed fashion. CFLOBDDs share many of the good properties of BDDs, but&ndash;in the best case&ndash;the CFLOBDD for a Boolean function can be exponentially smaller than any BDD for that function. Compared with the size of the decision tree for a function, a CFLOBDD&ndash;again, in the best case&ndash;can give a double-exponential reduction in size. They have the potential to permit applications to (i) execute much faster, and (ii) handle much larger problem instances than has been possible heretofore.
+CFLOBDDs are a new kind of decision diagram that go beyond BDDs (and their many relatives). The key insight is a new way to reuse sub-decision-diagrams: components of CFLOBDDs are structured hierarchically, so that sub-decision-diagrams can be treated as standalone &lsquo;&lsquo;procedures&rsquo;&rsquo; and reused.
+We applied CFLOBDDs to the problem of simulating quantum circuits, and found that for several standard problems the improvement in scalability&ndash;compared to simulation using BDDs&ndash;is quite dramatic. In particular, the number of qubits that could be handled using CFLOBDDs was larger, compared to BDDs, by a factor of 128x for GHZ; 1,024x for BV; 8,192x for DJ; and 128x for Grover&rsquo;s algorithm. (With a 15-minute timeout, the number of qubits that CFLOBDDs can handle are 65,536 for GHZ, 524,288 for BV; 4,194,304 for DJ; and 4,096 for Grover&rsquo;s Algorithm.)</p>
+ </p>
+    </details>
+    
+    <span class="awards"></span>
+    
+</li>
+
+                        
+                            <li>
+    <span class="title">
+
+
+
+
+
+    <a href="https://link.springer.com/content/pdf/10.1007/978-3-030-29400-7_27.pdf?pdf=inline%20link">Graph Coloring using GPUs</a></span>
+    <span class="at"> @ </span>
+    <span class="location">
+
+
+
+Euro-Par 2019 19</span><br>
+    <span class="authors">Meghana Aparna Sistla, V. Krishna Nandivada</span><br>
+    <details class="abstract">
+	<summary> Abstract </summary>
+	<p> <p>Graph coloring is a widely studied problem that is used in a variety of applications, such as task scheduling, register allocation, eigenvalue computations, social network analysis, and so on. Many of the modern day applications deal with large graphs (with millions of vertices and edges) and researchers have exploited the parallelism provided by multi-core systems to efficiently color such large graphs. GPUs provide a promising parallel infrastructure to run large applications. In this paper, we present new schemes to efficiently color large graphs on GPUs.</p>
+<p>We extend the algorithm of Rokos et al. to efficiently color graphs using GPUs. Their approach has to continually resolve conflicts for color assignment. We present a data driven variation of their algorithm and use an improved scheme for conflict resolution. We also propose two optimizations for our algorithm to reduce both the execution time and memory requirements. We have evaluated our scheme (called SIRG) against the NVIDIA cuSPARSE library and the work of Chen et al., and show that SIRG runs significantly faster: geomean 3.42× and 1.76×, respectively. We have also compared SIRG against the scheme of Rokos et al. for CPUs and show that SIRG performs faster on most input graphs: geomean 10.37×.</p>
+ </p>
+    </details>
+    
+    <span class="awards"></span>
+    
+</li>
+
+                        
+                    </ul>
+                
+            </section>
+
+	    
         </div>
     </div>
 

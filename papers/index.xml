@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Papers on My New Hugo Site</title>
-    <link>http://example.org/papers/</link>
-    <description>Recent content in Papers on My New Hugo Site</description>
+    <title>Papers on Meghana Sistla</title>
+    <link>https://meghana-sistla.github.io/papers/</link>
+    <description>Recent content in Papers on Meghana Sistla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/papers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://meghana-sistla.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Title of the paper</title>
-      <link>http://example.org/papers/europar2019/</link>
-      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      <title>Context-Free-Language Ordered Binary Decision Diagrams</title>
+      <link>https://meghana-sistla.github.io/papers/cflobdds/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/papers/europar2019/</guid>
-      <description>Abstract.</description>
+      <guid>https://meghana-sistla.github.io/papers/cflobdds/</guid>
+      <description>This paper presents a new compressed representation of Boolean functions, called CFLOBDDs (for Context-Free-Language Ordered Binary Decision Diagrams). They are essentially a plug-compatible alternative to BDDs (Binary Decision Diagrams), and hence useful for representing certain classes of functions, matrices, graphs, relations, etc. in a highly compressed fashion. CFLOBDDs share many of the good properties of BDDs, but&amp;ndash;in the best case&amp;ndash;the CFLOBDD for a Boolean function can be exponentially smaller than any BDD for that function.</description>
+    </item>
+    
+    <item>
+      <title>Graph Coloring using GPUs</title>
+      <link>https://meghana-sistla.github.io/papers/europar2019/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghana-sistla.github.io/papers/europar2019/</guid>
+      <description>Graph coloring is a widely studied problem that is used in a variety of applications, such as task scheduling, register allocation, eigenvalue computations, social network analysis, and so on. Many of the modern day applications deal with large graphs (with millions of vertices and edges) and researchers have exploited the parallelism provided by multi-core systems to efficiently color such large graphs. GPUs provide a promising parallel infrastructure to run large applications.</description>
     </item>
     
   </channel>
