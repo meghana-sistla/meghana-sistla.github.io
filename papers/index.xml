@@ -6,7 +6,16 @@
     <description>Recent content in Papers on Meghana Sistla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://meghana-sistla.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://meghana-sistla.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context-Free-Language Ordered Binary Decision Diagrams</title>
+      <link>https://meghana-sistla.github.io/papers/cflobdds/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghana-sistla.github.io/papers/cflobdds/</guid>
+      <description>This paper presents a new compressed representation of Boolean functions, called CFLOBDDs (for Context-Free-Language Ordered Binary Decision Diagrams). They are essentially a plug-compatible alternative to BDDs (Binary Decision Diagrams), and hence useful for representing certain classes of functions, matrices, graphs, relations, etc. in a highly compressed fashion. CFLOBDDs share many of the good properties of BDDs, but&amp;ndash;in the best case&amp;ndash;the CFLOBDD for a Boolean function can be exponentially smaller than any BDD for that function.</description>
+    </item>
+    
     <item>
       <title>Symbolic Quantum Simulation with Quasimodo</title>
       <link>https://meghana-sistla.github.io/papers/quasimodo/</link>
@@ -23,15 +32,6 @@
       
       <guid>https://meghana-sistla.github.io/papers/wcflobdds/</guid>
       <description>Over the years, many variants of Binary Decision Diagrams (BDDs) have been developed to address the deficiencies of vanilla BDDs. A recent innovation is the Context-Free-Language Ordered BDD (CFLOBDD), a hierarchically structured decision diagram, akin to BDDs enhanced with a procedure-call mechanism, which allows substructures to be shared in ways not possible with BDDs. For some functions, CFLOBDDs are exponentially more succinct than BDDs. Unfortunately, the multi-terminal extension of CFLOBDDs, like multi-terminal BDDs, cannot efficiently represent functions of type B^n -&amp;gt; D, when the function&amp;rsquo;s range has many different values.</description>
-    </item>
-    
-    <item>
-      <title>Context-Free-Language Ordered Binary Decision Diagrams</title>
-      <link>https://meghana-sistla.github.io/papers/cflobdds/</link>
-      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://meghana-sistla.github.io/papers/cflobdds/</guid>
-      <description>This paper presents a new compressed representation of Boolean functions, called CFLOBDDs (for Context-Free-Language Ordered Binary Decision Diagrams). They are essentially a plug-compatible alternative to BDDs (Binary Decision Diagrams), and hence useful for representing certain classes of functions, matrices, graphs, relations, etc. in a highly compressed fashion. CFLOBDDs share many of the good properties of BDDs, but&amp;ndash;in the best case&amp;ndash;the CFLOBDD for a Boolean function can be exponentially smaller than any BDD for that function.</description>
     </item>
     
     <item>
