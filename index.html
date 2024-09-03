@@ -33,9 +33,10 @@
         <div class="content">
             <section id="about">
                 <h2>About</h2>
-                <p>Hi! I am a third year Ph.D. student in Trishul group at the <a href="https://www.cs.utexas.edu/">University of Texas at Austin</a>, working with <a href="https://www.cs.utexas.edu/~swarat/">Prof. Swarat Chaudhuri</a>.
-I work in the area of programming languages, formal methods and machine learning. I am currently working on using automata-theoretic approaches for efficient representations of Boolean functions.</p>
-<p>Prior to pursuing Ph.D., I worked at Google India (2020-21) where I worked in the Google Ads team and Microsoft India (2019-2020) where I worked in Azure Compute team.</p>
+                <p>Hi! I am a fourth year Ph.D. student in Trishul group at the <a href="https://www.cs.utexas.edu/">University of Texas at Austin</a>, working with <a href="https://www.cs.utexas.edu/~swarat/">Prof. Swarat Chaudhuri</a>.
+I work in the area of programming languages, formal methods with applications to quantum computing. I am currently working on using automata-theoretic approaches for efficient representations of Boolean functions.</p>
+<p>I recently interned at Google in the P4-Based Automated Reasoning (P4-BAR) group to scale the performance of their tool by optimizing the symbolic execution pipeline.
+Prior to pursuing Ph.D., I worked at Google India (2020-21) where I worked in the Google Ads team and Microsoft India (2019-2020) where I worked in Azure Compute team.</p>
 <p>I graduated from <a href="http://www.cse.iitm.ac.in/">Indian Institute of Technology Madras</a> in 2019 with a Dual  Degree (Bachelor&rsquo;s and Master&rsquo;s) in Computer Science. I was advised by <a href="http://www.cse.iitm.ac.in/~krishna/">Prof. V Krishna Nandivada</a>.
 My final year thesis work was on Graph Coloring using GPUs.</p>
 
@@ -48,6 +49,32 @@ My final year thesis work was on Graph Coloring using GPUs.</p>
                 
                     <h2>Papers</h2>
                     <ul>
+                        
+                            <li>
+    <span class="title">
+
+
+
+
+
+    <a href="https://arxiv.org/abs/2305.13610">Weighted Context-Free-Language Ordered Binary Decision Diagrams</a></span>
+    <span class="at"> @ </span>
+    <span class="location">
+
+
+
+OOPSLA 24</span><br>
+    <span class="authors">Meghana Sistla, Swarat Chaudhuri, Thomas Reps</span><br>
+    <details class="abstract">
+	<summary> Abstract </summary>
+	<p> <p>Over the years, many variants of Binary Decision Diagrams (BDDs) have been developed to address the deficiencies of vanilla BDDs. A recent innovation is the Context-Free-Language Ordered BDD (CFLOBDD), a hierarchically structured decision diagram, akin to BDDs enhanced with a procedure-call mechanism, which allows substructures to be shared in ways not possible with BDDs. For some functions, CFLOBDDs are exponentially more succinct than BDDs. Unfortunately, the multi-terminal extension of CFLOBDDs, like multi-terminal BDDs, cannot efficiently represent functions of type B^n -&gt; D, when the function&rsquo;s range has many different values. This paper addresses this limitation through a new data structure called Weighted CFLOBDDs (WCFLOBDDs). WCFLOBDDs extend CFLOBDDs using insights from the design of Weighted BDDs (WBDDs) &ndash; BDD-like structures with weights on edges. We show that WCFLOBDDs can be exponentially more succinct than both WBDDs and CFLOBDDs.</p>
+ </p>
+    </details>
+    
+    <span class="awards"></span>
+    
+</li>
+
                         
                             <li>
     <span class="title">
@@ -95,32 +122,6 @@ CAV 23</span><br>
     <details class="abstract">
 	<summary> Abstract </summary>
 	<p> <p>The simulation of quantum circuits on classical computers is an important problem in quantum computing. Such simulation requires representations of distributions over very large sets of basis vectors, and recent work has used symbolic data-structures such as Binary Decision Diagrams (BDDs) for this purpose. In this tool paper, we present Quasimodo, an extensible, open-source Python library for symbolic simulation of quantum circuits. Quasimodo is specifically designed for easy extensibility to other backends. Quasimodo allows simulations of quantum circuits, checking properties of the outputs of quantum circuits, and debugging quantum circuits. It also allows the user to choose from among several symbolic data-structures &ndash; both unweighted and weighted BDDs, and a recent structure called Context-Free-Language Ordered Binary Decision Diagrams (CFLOBDDs) &ndash; and can be easily extended to support other symbolic data-structures.</p>
- </p>
-    </details>
-    
-    <span class="awards"></span>
-    
-</li>
-
-                        
-                            <li>
-    <span class="title">
-
-
-
-
-
-    <a href="https://arxiv.org/abs/2305.13610">Weighted Context-Free-Language Ordered Binary Decision Diagrams</a></span>
-    <span class="at"> @ </span>
-    <span class="location">
-
-
-
-preprint 23</span><br>
-    <span class="authors">Meghana Sistla, Swarat Chaudhuri, Thomas Reps</span><br>
-    <details class="abstract">
-	<summary> Abstract </summary>
-	<p> <p>Over the years, many variants of Binary Decision Diagrams (BDDs) have been developed to address the deficiencies of vanilla BDDs. A recent innovation is the Context-Free-Language Ordered BDD (CFLOBDD), a hierarchically structured decision diagram, akin to BDDs enhanced with a procedure-call mechanism, which allows substructures to be shared in ways not possible with BDDs. For some functions, CFLOBDDs are exponentially more succinct than BDDs. Unfortunately, the multi-terminal extension of CFLOBDDs, like multi-terminal BDDs, cannot efficiently represent functions of type B^n -&gt; D, when the function&rsquo;s range has many different values. This paper addresses this limitation through a new data structure called Weighted CFLOBDDs (WCFLOBDDs). WCFLOBDDs extend CFLOBDDs using insights from the design of Weighted BDDs (WBDDs) &ndash; BDD-like structures with weights on edges. We show that WCFLOBDDs can be exponentially more succinct than both WBDDs and CFLOBDDs.</p>
  </p>
     </details>
     

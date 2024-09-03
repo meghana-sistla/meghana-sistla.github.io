@@ -6,7 +6,16 @@
     <description>Recent content in Papers on Meghana Sistla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://meghana-sistla.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://meghana-sistla.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weighted Context-Free-Language Ordered Binary Decision Diagrams</title>
+      <link>https://meghana-sistla.github.io/papers/wcflobdds/</link>
+      <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghana-sistla.github.io/papers/wcflobdds/</guid>
+      <description>Over the years, many variants of Binary Decision Diagrams (BDDs) have been developed to address the deficiencies of vanilla BDDs. A recent innovation is the Context-Free-Language Ordered BDD (CFLOBDD), a hierarchically structured decision diagram, akin to BDDs enhanced with a procedure-call mechanism, which allows substructures to be shared in ways not possible with BDDs. For some functions, CFLOBDDs are exponentially more succinct than BDDs. Unfortunately, the multi-terminal extension of CFLOBDDs, like multi-terminal BDDs, cannot efficiently represent functions of type B^n -&amp;gt; D, when the function&amp;rsquo;s range has many different values.</description>
+    </item>
+    
     <item>
       <title>Context-Free-Language Ordered Binary Decision Diagrams</title>
       <link>https://meghana-sistla.github.io/papers/cflobdds/</link>
@@ -23,15 +32,6 @@
       
       <guid>https://meghana-sistla.github.io/papers/quasimodo/</guid>
       <description>The simulation of quantum circuits on classical computers is an important problem in quantum computing. Such simulation requires representations of distributions over very large sets of basis vectors, and recent work has used symbolic data-structures such as Binary Decision Diagrams (BDDs) for this purpose. In this tool paper, we present Quasimodo, an extensible, open-source Python library for symbolic simulation of quantum circuits. Quasimodo is specifically designed for easy extensibility to other backends.</description>
-    </item>
-    
-    <item>
-      <title>Weighted Context-Free-Language Ordered Binary Decision Diagrams</title>
-      <link>https://meghana-sistla.github.io/papers/wcflobdds/</link>
-      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://meghana-sistla.github.io/papers/wcflobdds/</guid>
-      <description>Over the years, many variants of Binary Decision Diagrams (BDDs) have been developed to address the deficiencies of vanilla BDDs. A recent innovation is the Context-Free-Language Ordered BDD (CFLOBDD), a hierarchically structured decision diagram, akin to BDDs enhanced with a procedure-call mechanism, which allows substructures to be shared in ways not possible with BDDs. For some functions, CFLOBDDs are exponentially more succinct than BDDs. Unfortunately, the multi-terminal extension of CFLOBDDs, like multi-terminal BDDs, cannot efficiently represent functions of type B^n -&amp;gt; D, when the function&amp;rsquo;s range has many different values.</description>
     </item>
     
     <item>
