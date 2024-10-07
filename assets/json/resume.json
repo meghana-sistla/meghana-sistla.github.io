@@ -1,1 +1,321 @@
-{"basics":{"name":"Harshavardhan Adepu","image":"","email":"adepu@wisc.edu","phone":"(608) 686-2694","LinkedIn":"<a href='https://www.linkedin.com/in/adepu-harshavardhan/'>https://www.linkedin.com/in/adepu-harshavardhan/</a>","url":"https://sravan-ankireddy.github.io/","profiles":[{"network":"Twitter","username":"AlbertEinstein","url":"https://twitter.com/AlbertEinstein"}]},"research interests":{"summary":"I am interested in efficient Deep learning, particularly making Large Language models and Vision models more efficient through quantization, pruning, and PEFT. I am also interested and have experience in modern Deep Learning paradigms such as Multimodal models, LLMs, and, INRs."},"work":[{"name":"Google DeepMind","url":"https://deepmind.google/","team":"Perception: Humans & Interactions team","position":"Student Researcher","startDate":"2024-04","endDate":"2024-10","highlights":["Training ultra-low precision Mixture-of-Experts model for approximating general floating point models.","Designing efficient quantization schemes for multi-modal generative models with theoretical guarantees."]},{"name":"Texas Instruments","url":"https://www.ti.com/about-ti/company/what-we-do.html","team":"High Speed Signal Conditioning team","position":"Systems Engineer","startDate":"2019-03","endDate":"2021-08","highlights":["Designed an Adaptive Equalizer in RX of Retimer SoCs to reduce Inter Symbol Interference at data rates of 56Gbps.","Developed a MMSE adaptation algorithm for fast convergence and a steady-state BER of <1e-15."]},{"name":"Texas Instruments","url":"https://www.ti.com/about-ti/company/what-we-do.html","team":"Wireless Infrastructure Team","position":"Systems Engineer","startDate":"2018-07","endDate":"2019-02","highlights":["Developed fixed point models for DDC and DUC chains of 5G Transceiver SoCs and analyzed their SNR and SFDR.","Identified key contributors of spurs in the DDC chain and devised solutions to maintain SFDR below -100dBc."]}],"education":[{"institution":"University of Wisconsin-Madison","department":"Electrical and Computer Engineering","location":"Madison, WI","url":"https://www.wisc.edu/","studyType":"PhD","startDate":"2024-01-01","endDate":"2026-05-01"},{"institution":"University of Wisconsin-Madison","department":"Electrical and Computer Engineering","location":"Madison, WI","url":"https://www.wisc.edu/","studyType":"MS","startDate":"2021-09-01","endDate":"2026-05-01"},{"institution":"Indian Institute of Technology, Madras","department":"Electrical Engineering","location":"Chennai, India","url":"https://www.iitm.ac.in/","studyType":"B.Tech","startDate":"2018-07-01","endDate":"2018-05-01"}],"publications":[{"name":"FrameQuant: Flexible Low-Bit Quantization for Transformers","publisher":"Proceedings of International Conference on Machine Learning (ICML)","releaseDate":"2024","url":"https://arxiv.org/abs/2403.06082","summary":"A PTQ method for quantizing LLMs and  Vision Transformers to effectively two bits with only a small drop in performance. Our method is based on classical frame analysis and provides flexibility to quantize a model to fractional bit widths on average, uniformly across all layers."},{"name":"Implicit Representations via Operator Learning","publisher":"Proceedings of International Conference on Machine Learning (ICML)","releaseDate":"2024","url":"https://openreview.net/pdf?id=ki4NYmRTQI","summary":"An operator theoretical reformulation of the INR model, able to use CNNs as INRs(which are mainly dominated by MLPs). Allows interpolation between INRs trained on different images while also being able to represent 3D volumes, videos, and 3D MRI scans."},{"name":"Offset Correction in High-Speed Serial Link Receivers","publisher":"US Patent","releaseDate":"2022","url":"https://patentcenter.uspto.gov/applications/17363855"},{"name":"Lane Adaptation in High-Speed Serial Links","publisher":"US Patent","releaseDate":"2021","url":"https://patentcenter.uspto.gov/applications/17205456"},{"name":"Digital Upconverter for Radio Frequency Sampling Transmitter","publisher":"US Patent","releaseDate":"2021","url":"https://patentcenter.uspto.gov/applications/17493943"}],"research projects":[{"name":"Data Augmentation for Image Classification using Latent Diffusion Models","url":"https://github.com/NamburiSrinath/DataSet-Augmentation","highlights":["Generated synthetic images using Stable Diffusion for CIFAR-10 dataset and trained a ResNet18 model.","Fine-tuned the Stable Diffusion using Textual Inversion, Dream-Booth to improve the accuracy to ∼82%"],"startDate":"2022-09-01","endDate":"2022-12-01"},{"name":"Performance of Multi-Image Comparison Queries","highlights":["Proved that the Cross Cluster Edge Density for queries with 3 to 8 images per query is better than the classical pair comparison queries under Conditional Block Model.","Implemented a Python program to generate mathematical proof and derive the expressions for cross cluster edge density given the number of images per query."],"startDate":"2022-01-01","endDate":"2022-06-01"},{"name":"Efficiency Model for Buck Converter","highlights":["Developed an Empirical model for the total power loss in a Buck converter with maximum error <3%.","Derived an analytical expression for the Optimum sizes of switches and the frequency of operation of the Buck Converter."],"startDate":"2017-12-01","endDate":"2018-05-01"}],"course projects":[{"name":"Robust Image Classification","highlights":["Processed noisy imaged with DCT, DWT and improved the classification accuracy by 15% on the CIFAR-10 dataset.","Implemented a Bayesian uncertainty-based two-layer defense to defend a classifier against Adversarial attacks such as FGSM, BIM, and CW L2."],"startDate":"2021-09-01","endDate":"2021-12-01"},{"name":"Systematic Encoding and Decoding of BCH Codes","highlights":["Designed a systematic encoder and decoder for a binary BCH code with error and erasure correcting capabilities.","Implemented the simplified Berlekamp-Massey algorithm for binary codes to determine the error location polynomial."],"startDate":"2017-02-01","endDate":"2017-05-01"}],"skills":[{"name":"Deep Learning","level":"Master","icon":"fa-solid fa-hashtag","keywords":["Transformers","LLMs","Diffusion Models","Computer Vision","Quantization","PEFT","INR"]},{"name":"Coding","level":"Master","icon":"fa-solid fa-hashtag","keywords":["Python","Pytorch","Jax","Assembly","C","C++"]},{"name":"Signal Processing","level":"Master","icon":"fa-solid fa-hashtag","keywords":["Harmonic Analysis","Wavelets","MatLab"]},{"name":"Mathematics","level":"Master","icon":"fa-solid fa-hashtag","keywords":["Abstract Algebra","Probability","Analysis"]}],"awards":{"highlights":["Recipient of GCP Credit Award in support of my research on Efficient Transformer Models.","Graduated with “Honours” in Electrical Engineering from IIT Madras, 2018 (Top 7%).","Secured an All India Rank of 2293(Top 1.5%) in engineering Joint Entrance Exam Advanced 2014."]},"certificates":[{"name":"Machine Learning","date":"2018-01-01","issuer":"Stanford University","url":"https://example.com","icon":"fa-solid fa-location-dot"},{"name":"Quantum Computing","date":"2018-01-01","issuer":"Stanford University","url":"https://example.com","icon":"fa-solid fa-tag"},{"name":"Quantum Information","date":"2018-01-01","issuer":"Stanford University","url":"https://example.com","icon":"fa-solid fa-envelope"},{"name":"Quantum Cryptography","date":"2018-01-01","issuer":"Stanford University","url":"https://example.com","icon":"fa-solid fa-hashtag"},{"name":"Quantum Communication","date":"2018-01-01","issuer":"Stanford University","url":"https://example.com","icon":"fa-solid fa-calendar"},{"name":"Quantum Teleportation","date":"2018-01-01","issuer":"Stanford University","url":"https://example.com","icon":"fa-solid fa-clipboard-check"}],"interests":[{"name":"Physics","icon":"fa-solid fa-tag","keywords":["Quantum Mechanics","Quantum Computing","Quantum Information","Quantum Cryptography","Quantum Communication","Quantum Teleportation"]}],"references":[{"name":"Professor John Doe","icon":"fa-solid fa-laptop","reference":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"},{"name":"Professor John Doe","icon":"fa-solid fa-thumbtack","reference":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"}],"languages":[{"language":"German","fluency":"Native speaker","icon":""},{"language":"English","fluency":"Fluent","icon":""}],"volunteer":[{"organization":"People's Climate March","location":"Zurich, Switzerland","position":"Lead Organizer","url":"https://example.com","startDate":"2014-04-01","endDate":"2015-07-01","summary":"Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.","highlights":["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.","Men of the year 2014 by Time magazine"]}]}
+{
+  "basics": {
+    "name": "Harshavardhan Adepu",
+    "image": "",
+    "email": "adepu@wisc.edu",
+    "phone": "(608) 686-2694",
+    "LinkedIn": "<a href='https://www.linkedin.com/in/adepu-harshavardhan/'>https://www.linkedin.com/in/adepu-harshavardhan/</a>",
+    "url": "https://harshauwm163.github.io/",
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
+      }
+    ]
+  },
+  "research interests":{
+    "summary": "I am interested in efficient Deep learning, particularly making Large Language models and Vision models more efficient through quantization, pruning, and PEFT. I am also interested and have experience in modern Deep Learning paradigms such as Multimodal models, LLMs, and, INRs."
+  },
+  "work": [
+    {
+      "name": "Google DeepMind",
+      "url":"https://deepmind.google/",
+      "team": "Perception: Humans & Interactions team",
+      "position": "Student Researcher",
+      "startDate": "2024-04",
+      "endDate": "2024-10",
+      "highlights": [
+        "Training ultra-low precision Mixture-of-Experts model for approximating general floating point models.",
+        "Designing efficient quantization schemes for multi-modal generative models with theoretical guarantees."
+      ]
+    },
+    {
+      "name": "Texas Instruments",
+      "url": "https://www.ti.com/about-ti/company/what-we-do.html",
+      "team": "High Speed Signal Conditioning team",
+      "position": "Systems Engineer",
+      "startDate": "2019-03",
+      "endDate": "2021-08",
+      "highlights": [
+        "Designed an Adaptive Equalizer in RX of Retimer SoCs to reduce Inter Symbol Interference at data rates of 56Gbps.",
+        "Developed a MMSE adaptation algorithm for fast convergence and a steady-state BER of <1e-15."
+      ]
+    },
+    {
+      "name": "Texas Instruments",
+      "url": "https://www.ti.com/about-ti/company/what-we-do.html",
+      "team": "Wireless Infrastructure Team",
+      "position": "Systems Engineer",
+      "startDate": "2018-07",
+      "endDate": "2019-02",
+      "highlights": [
+        "Developed fixed point models for DDC and DUC chains of 5G Transceiver SoCs and analyzed their SNR and SFDR.",
+        "Identified key contributors of spurs in the DDC chain and devised solutions to maintain SFDR below -100dBc."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Wisconsin-Madison",
+      "department": "Electrical and Computer Engineering",
+      "location": "Madison, WI",
+      "url": "https://www.wisc.edu/",
+      "studyType": "PhD",
+      "startDate": "2024-01-01",
+      "endDate": "2026-05-01"
+    },
+    {
+      "institution": "University of Wisconsin-Madison",
+      "department": "Electrical and Computer Engineering",
+      "location": "Madison, WI",
+      "url": "https://www.wisc.edu/",
+      "studyType": "MS",
+      "startDate": "2021-09-01",
+      "endDate": "2026-05-01"
+    },
+    {
+      "institution": "Indian Institute of Technology, Madras",
+      "department": "Electrical Engineering",
+      "location": "Chennai, India",
+      "url": "https://www.iitm.ac.in/",
+      "studyType": "B.Tech",
+      "startDate": "2018-07-01",
+      "endDate": "2018-05-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "FrameQuant: Flexible Low-Bit Quantization for Transformers",
+      "publisher": "Proceedings of International Conference on Machine Learning (ICML)",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2403.06082",
+      "summary": "A PTQ method for quantizing LLMs and  Vision Transformers to effectively two bits with only a small drop in performance. Our method is based on classical frame analysis and provides flexibility to quantize a model to fractional bit widths on average, uniformly across all layers."
+    },
+    {
+      "name": "Implicit Representations via Operator Learning",
+      "publisher": "Proceedings of International Conference on Machine Learning (ICML)",
+      "releaseDate": "2024",
+      "url": "https://openreview.net/pdf?id=ki4NYmRTQI",
+      "summary": "An operator theoretical reformulation of the INR model, able to use CNNs as INRs(which are mainly dominated by MLPs). Allows interpolation between INRs trained on different images while also being able to represent 3D volumes, videos, and 3D MRI scans."
+    },
+    {
+      "name": "Offset Correction in High-Speed Serial Link Receivers",
+      "publisher": "US Patent",
+      "releaseDate": "2022",
+      "url": "https://patentcenter.uspto.gov/applications/17363855"
+    },
+    {
+      "name": "Lane Adaptation in High-Speed Serial Links",
+      "publisher": "US Patent",
+      "releaseDate": "2021",
+      "url": "https://patentcenter.uspto.gov/applications/17205456"
+    },
+    {
+      "name": "Digital Upconverter for Radio Frequency Sampling Transmitter",
+      "publisher": "US Patent",
+      "releaseDate": "2021",
+      "url": "https://patentcenter.uspto.gov/applications/17493943"
+    }
+  ],
+  "research projects": [
+    {
+      "name": "Data Augmentation for Image Classification using Latent Diffusion Models",
+      "url": "https://github.com/NamburiSrinath/DataSet-Augmentation",
+      "highlights": [
+        "Generated synthetic images using Stable Diffusion for CIFAR-10 dataset and trained a ResNet18 model.",
+        "Fine-tuned the Stable Diffusion using Textual Inversion, Dream-Booth to improve the accuracy to ∼82%"
+      ],
+      "startDate": "2022-09-01",
+      "endDate": "2022-12-01"
+    },
+    {
+      "name": "Performance of Multi-Image Comparison Queries",
+      "highlights": [
+        "Proved that the Cross Cluster Edge Density for queries with 3 to 8 images per query is better than the classical pair comparison queries under Conditional Block Model.",
+        "Implemented a Python program to generate mathematical proof and derive the expressions for cross cluster edge density given the number of images per query."
+      ],
+      "startDate": "2022-01-01",
+      "endDate": "2022-06-01"
+    },
+    {
+      "name": "Efficiency Model for Buck Converter",
+      "highlights": [
+        "Developed an Empirical model for the total power loss in a Buck converter with maximum error <3%.",
+        "Derived an analytical expression for the Optimum sizes of switches and the frequency of operation of the Buck Converter."
+      ],
+      "startDate": "2017-12-01",
+      "endDate": "2018-05-01"
+    }
+  ],
+  "course projects": [
+    {
+      "name": "Robust Image Classification",
+      "highlights": [
+        "Processed noisy imaged with DCT, DWT and improved the classification accuracy by 15% on the CIFAR-10 dataset.",
+        "Implemented a Bayesian uncertainty-based two-layer defense to defend a classifier against Adversarial attacks such as FGSM, BIM, and CW L2."
+      ],
+      "startDate": "2021-09-01",
+      "endDate": "2021-12-01"
+    },
+    {
+      "name": "Systematic Encoding and Decoding of BCH Codes",
+      "highlights": [
+        "Designed a systematic encoder and decoder for a binary BCH code with error and erasure correcting capabilities.",
+        "Implemented the simplified Berlekamp-Massey algorithm for binary codes to determine the error location polynomial."
+      ],
+      "startDate": "2017-02-01",
+      "endDate": "2017-05-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Deep Learning",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Transformers",
+        "LLMs",
+        "Diffusion Models",
+        "Computer Vision",
+        "Quantization",
+        "PEFT",
+        "INR"
+      ]
+    },
+    {
+      "name": "Coding",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python",
+        "Pytorch",
+        "Jax",
+        "Assembly",
+        "C",
+        "C++"
+      ]
+    },
+    {
+      "name": "Signal Processing",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Harmonic Analysis",
+        "Wavelets",
+        "MatLab"
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Abstract Algebra",
+        "Probability",
+        "Analysis"
+      ]
+    }
+  ],
+  "awards": {
+      "highlights": [
+        "Recipient of GCP Credit Award in support of my research on Efficient Transformer Models.",
+        "Graduated with “Honours” in Electrical Engineering from IIT Madras, 2018 (Top 7%).",
+        "Secured an All India Rank of 2293(Top 1.5%) in engineering Joint Entrance Exam Advanced 2014."
+      ]
+  },
+  "certificates": [
+    {
+      "name": "Machine Learning",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Quantum Computing",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Quantum Information",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-envelope"
+    },
+    {
+      "name": "Quantum Cryptography",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Quantum Communication",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-calendar"
+    },
+    {
+      "name": "Quantum Teleportation",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-clipboard-check"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Physics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    },
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    }
+  ]
+}

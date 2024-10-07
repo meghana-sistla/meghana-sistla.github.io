@@ -1,0 +1,13 @@
+<table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
+  {% for content in data %}
+    <tr class="p-1 pl-2 font-weight-light text">
+        <ul class="items font-weight-light text">
+          {% for item in content.highlights %}
+            <li>
+              {{ item }}
+            </li>
+          {% endfor %}
+        </ul>
+    </tr>
+  {% endfor %}
+</table>
