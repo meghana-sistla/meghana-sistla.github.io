@@ -37,7 +37,7 @@ for my thesis work on Graph Coloring using GPUs.
 
 I am on the job market looking for research positions looking for industry research groups.
 
-You can find my CV <a href="{{ '/assets/pdf/Meghana_Sistla_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"> here. </a>
+You can find my CV <a href="{{ '/assets/pdf/meghana_sistla_cv.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"> here. </a>
 
 Outside of work, I enjoy singing, painting, and have recently taken up playing board games!
 
