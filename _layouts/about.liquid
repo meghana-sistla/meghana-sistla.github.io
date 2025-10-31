@@ -56,6 +56,7 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    {% comment %}
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -63,6 +64,7 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+    {% endcomment %}
 
     <!-- Social -->
     {% if page.social %}
@@ -70,11 +72,13 @@ layout: default
         <div class="contact-icons">{% include social.liquid %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
-<div>
-<!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=15560579&style=0006&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a> visitors! Thank you for stopping by!!
-</div>
+        {% comment %}
+        <div>
+          <!-- hitwebcounter Code START -->
+          <a href="https://www.hitwebcounter.com" target="_blank">
+          <img src="https://hitwebcounter.com/counter/counter.php?page=15560579&style=0006&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a> visitors! Thank you for stopping by!!
+        </div>
+        {% endcomment %}
       </div>
     {% endif %}
 

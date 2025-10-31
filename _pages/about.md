@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -10,29 +10,36 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <i class="fa-solid fa-envelope"></i>
-    <a href='mailto:sravan.ankireddy@utexas.edu'>sravan.ankireddy@utexas.edu</a> <br>
+    <a href='mailto:mesistla@utexas.edu'>mesistla@utexas.edu</a> <br>
     <i class="fa-brands fa-linkedin"></i>
-    <a href='https://www.linkedin.com/in/sravan-ankireddy/'>sravan-ankireddy</a>
+    <a href='https://www.linkedin.com/in/meghana-aparna-sistla/'>meghana-aparna-sistla</a>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D candidate in the department of ECE at the University of Texas at Austin, advised by <a href='http://sites.utexas.edu/hkim/'> Hyeji Kim </a>.
-I am broadly interested in problems at the intersection of Deep Learning and Information Theory. My current research interests include leveraging foundation models for learning robust representations from multi-modal datatsets that enable continual learning across models and tasks. Additionally, I am also interested in neural image compression and generative models for synthetic datasets. 
+Hi! I am a Ph.D. candidate in the Trishul lab at the <a href='https://www.cs.utexas.edu'>University of Texas at Austin,</a> working with <a href='https://www.cs.utexas.edu/~swarat/'>Prof. Swarat Chaudhuri</a> and collaborating closely with
+<a href='https://pages.cs.wisc.edu/~reps/'> Prof. Tom Reps.</a>
+My research interests span the areas of AI, programming languages and formal methods. I have rich academic and industrial experience, both in traditional verification and use of LLMs for code/math. 
 
-Previously, I also worked on deep learning based channel coding schemes for PHY layer communication. 
+During my grad school, I have worked on using automata-theoretic approaches for succinct function representations for verification and simulation; 
+I have also worked on projects involving AI for math and code.
 
-I also closely collaborate with <a href='https://ece.princeton.edu/people/pramod-viswanath'> Pramod Viswanath</a> (Princeton), <a href='http://krishnanarayanan.wikidot.com'> Krishna Narayanan</a> (TAMU), <a href='https://homes.cs.washington.edu/~sewoong/'> Sewoong Oh</a> (UW Seattle), <a href='https://www.ece.utexas.edu/people/faculty/sandeep-chinchali'> Sandeep Chinchali</a> (UT Austin).
+During my PhD, I interned twice at Google. I was a PhD intern in the DevAI Research team where I worked on verified code reasoning by LLMs, with 
+<a href='https://sites.google.com/site/schandraacmorg/'> Satish Chandra </a> and <a href='https://pages.cs.wisc.edu/~bgogul/'> Gogul Balakrishnan.</a>
+Before that, I interned in the P4-Based Automated Reasoning (P4-BAR) group to <a href='https://www.youtube.com/watch?v=RbzO_s1r0vU'>scale the performance of symbolic execution pipeline </a> for formal switch testing, with <a href='https://sites.google.com/view/ali-kheradmand'>Ali Kheradmand </a> and <a href='https://smolka.st/'>Steffen Smolka </a>.
 
-My goal is to combine advances from multiple fields to develop low-complex solutions at the intersection of theory and systems.
 
-In the past, I spent two wonderful years a Research Engineer at <a href='https://www.qualcomm.com/company/corporate-responsibility/purposeful-innovation/wireless-reach/overview'> Qualcomm </a> working in the Physical Layer Modelling team in Bangalore, India. Previously, I graduated with Bachelors and Masters in <a href='https://www.ee.iitm.ac.in/'> Electrical Engineering </a> from <a href='https://www.iitm.ac.in/'> IIT Madras </a> in 2019. I have been extremely fortunate to have worked with <a href='http://www.ee.iitm.ac.in/andrew/'> Dr. Andrew Thangaraj</a> and <a href='http://www.ee.iitm.ac.in/~rganti/'> Dr. Radha Krishna Ganti </a> for my Master's Thesis on efficient encoding and decoding of Polar Codes.
+Prior to pursuing Ph.D., I worked in Google India (2020-21) in the Google Ads team and Microsoft India (2019-2020) in the Azure Compute team.
+I graduated from [Indian Institute of Technology Madras](http://www.cse.iitm.ac.in/) in 2019 with a Dual  Degree (Bachelor's and Master's) in Computer Science. I was advised by [Prof. V Krishna Nandivada](http://www.cse.iitm.ac.in/~krishna/).
+for my thesis work on Graph Coloring using GPUs. 
 
-In my spare time I enjoy reading books, watching documentaries, and hiking.
+I am on the job market looking for research positions looking for industry research groups.
 
-                                    
+You can find my CV <a href="{{ '/assets/pdf/Meghana_Sistla_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"> here. </a>
+
+Outside of work, I enjoy singing, painting, and have recently taken up playing board games!
 
 
 <!---
