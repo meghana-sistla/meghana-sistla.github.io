@@ -8,18 +8,15 @@ profile:
   align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <i class="fa-solid fa-envelope"></i>
-    <a href='mailto:mesistla@utexas.edu'>mesistla@utexas.edu</a> <br>
-    <i class="fa-brands fa-linkedin"></i>
-    <a href='https://www.linkedin.com/in/meghana-aparna-sistla/'>meghana-aparna-sistla</a>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I am a Ph.D. candidate in the Trishul lab at the <a href='https://www.cs.utexas.edu'>University of Texas at Austin,</a> working with <a href='https://www.cs.utexas.edu/~swarat/'>Prof. Swarat Chaudhuri</a> and collaborating closely with
+Hi! I am a Research Scientist at <a href='https://deepmind.google/'> Google DeepMind </a> working on verified agents using formal techniques.
+
+Previously, I was a Ph.D. student in the Trishul lab at the <a href='https://www.cs.utexas.edu'>University of Texas at Austin,</a> working with <a href='https://www.cs.utexas.edu/~swarat/'>Prof. Swarat Chaudhuri</a> and collaborating closely with
 <a href='https://pages.cs.wisc.edu/~reps/'> Prof. Tom Reps.</a>
 My research interests span the areas of AI, programming languages and formal methods. I have rich academic and industrial experience, both in traditional verification and use of LLMs for code/math. 
 
@@ -34,8 +31,6 @@ Before that, I interned in the P4-Based Automated Reasoning (P4-BAR) group to <a
 Prior to pursuing Ph.D., I worked in Google India (2020-21) in the Google Ads team and Microsoft India (2019-2020) in the Azure Compute team.
 I graduated from [Indian Institute of Technology Madras](http://www.cse.iitm.ac.in/) in 2019 with a Dual  Degree (Bachelor's and Master's) in Computer Science. I was advised by [Prof. V Krishna Nandivada](http://www.cse.iitm.ac.in/~krishna/).
 for my thesis work on Graph Coloring using GPUs. 
-
-I am on the job market looking for research positions looking for industry research groups.
 
 You can find my CV <a href="{{ '/assets/pdf/meghana_sistla_cv.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"> here. </a>
 
